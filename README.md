@@ -5,7 +5,7 @@
 <br/>
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Claude AI](https://img.shields.io/badge/Claude_AI-claude--sonnet--4-D97706?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
+[![ARIA AI](https://img.shields.io/badge/ARIA-ARIA--sonnet--4-D97706?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.38+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.112+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
@@ -48,7 +48,7 @@
 <td width="50%">
 
 ### 🤖 AI-Powered Analysis
-- **Claude Sonnet 4** deep resume review with executive-level feedback
+- **ARIA Sonnet 4** deep resume review with executive-level feedback
 - Semantic similarity scoring using **Sentence-BERT** embeddings
 - Named Entity Recognition via **spaCy** for structured extraction
 - Career trajectory prediction with personalised path recommendations
