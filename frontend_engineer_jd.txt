@@ -1,0 +1,26 @@
+Frontend Engineer – Consumer Products
+
+Join our consumer product team to build delightful web experiences for millions of users.
+
+Responsibilities:
+- Build responsive, accessible React applications
+- Collaborate with design team using Figma specs
+- Write comprehensive unit and integration tests
+- Optimise Core Web Vitals and performance metrics
+- Participate in code reviews and contribute to our component library
+
+Requirements:
+- 2+ years of frontend engineering experience
+- Expert knowledge of React and TypeScript
+- Strong CSS skills including modern layout techniques
+- Experience with testing: Jest, React Testing Library, Playwright
+- Understanding of web performance optimisation
+- Ability to translate designs into pixel-perfect implementations
+
+Nice to Have:
+- Next.js / SSR experience
+- Animation libraries (Framer Motion, GSAP)
+- Accessibility (WCAG 2.1) expertise
+- Basic backend (Node.js/Python) knowledge
+
+Compensation: $130K–$165K + equity + benefits

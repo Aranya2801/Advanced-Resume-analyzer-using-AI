@@ -1,0 +1,27 @@
+Senior Machine Learning Engineer – AI Platform Team
+
+We are looking for a Senior ML Engineer to join our AI Platform team at TechCorp.
+
+Responsibilities:
+- Design and build scalable ML training and inference infrastructure
+- Partner with research teams to productionise cutting-edge models
+- Optimise model serving for latency and throughput at scale
+- Lead technical design reviews and mentor junior engineers
+- Contribute to ML platform roadmap
+
+Requirements:
+- 5+ years of software engineering experience, with 3+ years in ML engineering
+- Expert-level Python; proficiency in Go or Rust a plus
+- Deep experience with PyTorch and/or TensorFlow
+- Experience with MLOps tools: MLflow, Kubeflow, or similar
+- Strong understanding of distributed systems and Kubernetes
+- Experience with LLMs, transformer fine-tuning, or RLHF a strong plus
+- Track record of shipping ML systems to production at scale
+- M.S. or Ph.D. in CS, Statistics, or related field preferred
+
+Nice to Have:
+- Experience with vLLM, TensorRT, or ONNX optimisation
+- Publications at top ML venues (NeurIPS, ICML, ICLR)
+- Open source contributions
+
+We offer: $250K–$320K total comp, equity, remote-friendly, unlimited PTO.

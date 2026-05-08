@@ -1,0 +1,47 @@
+ALEX CHEN
+alex.chen@email.com | +1 (415) 555-0192 | linkedin.com/in/alexchen | github.com/alexchen | San Francisco, CA
+
+PROFESSIONAL SUMMARY
+Senior Software Engineer with 8+ years building large-scale distributed systems at FAANG-level companies. 
+Led teams of 6-12 engineers, reduced infrastructure costs by $2.3M annually, and shipped products used by 50M+ users.
+Passionate about ML systems, platform engineering, and developer tooling.
+
+EXPERIENCE
+
+Staff Software Engineer | Stripe, Inc. | San Francisco, CA | Jan 2021 – Present
+• Architected a real-time fraud detection system processing 2.4M transactions/sec with <10ms P99 latency
+• Led migration of 150 microservices from Kubernetes 1.18 → 1.28, reducing cluster costs by 34%
+• Built internal ML feature platform serving 40+ data science teams, cutting model deployment time from 3 weeks to 2 days
+• Mentored 6 junior engineers; 4 promoted within 18 months under my guidance
+• Drove adoption of SLO-based alerting, reducing false-positive pages by 78%
+
+Senior Software Engineer | Airbnb | San Francisco, CA | Mar 2018 – Jan 2021
+• Redesigned search ranking pipeline using transformer-based embeddings, improving booking conversion by 11%
+• Built A/B testing framework used by 200+ engineers for 500+ experiments annually
+• Reduced API response time by 60% via intelligent caching and database query optimisation
+• Authored RFC that standardised GraphQL schema design across 15 backend teams
+
+Software Engineer | LinkedIn | Sunnyvale, CA | Jul 2016 – Mar 2018
+• Developed recruiter matching algorithm serving 700M+ members with 99.99% uptime
+• Optimised Kafka consumer groups reducing message lag from 45min to <2min during traffic spikes
+• Shipped 3 features shipped to production with 0 P0 incidents
+
+EDUCATION
+B.S. Computer Science, Stanford University, 2016 | GPA: 3.9/4.0 | Honors: Phi Beta Kappa
+
+SKILLS
+Languages: Python, Go, Java, TypeScript, Scala, Rust
+Distributed Systems: Kafka, Spark, Flink, Kubernetes, Istio, Envoy
+Databases: PostgreSQL, MySQL, Redis, Cassandra, DynamoDB, Elasticsearch
+ML/AI: PyTorch, TensorFlow, Hugging Face, MLflow, Vertex AI, SageMaker
+Cloud: AWS (certified), GCP, Docker, Terraform, Helm
+Observability: Prometheus, Grafana, Datadog, OpenTelemetry
+
+CERTIFICATIONS
+• AWS Solutions Architect – Professional (2023)
+• Google Cloud Professional Data Engineer (2022)
+• CKA: Certified Kubernetes Administrator (2021)
+
+PROJECTS
+• ResumeAI: Open-source resume analyzer with 2.1k GitHub stars
+• DistSQL: Query planner optimisation library, 800+ npm downloads/week

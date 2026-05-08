@@ -1,0 +1,45 @@
+JAMIE RODRIGUEZ
+jamie.rod@gmail.com | 617-555-9034 | github.com/jamierod | Boston, MA
+
+OBJECTIVE
+Recent CS graduate looking for a frontend engineering role. 
+Strong in React and UI/UX. Built 8 full-stack projects.
+
+EDUCATION
+B.S. Computer Science, Boston University, May 2024
+GPA: 3.7 / 4.0 | Dean's List (6 semesters)
+Relevant Coursework: Data Structures, Algorithms, Web Engineering, HCI, Databases
+
+PROJECTS
+
+ResumeBuilder Pro | github.com/jamierod/resumebuilder
+• Built drag-and-drop resume builder with React, TypeScript, and Tailwind CSS
+• 400+ active users, 4.6/5 rating on Product Hunt
+• Implemented PDF export using react-pdf, reducing file size by 40% vs competitors
+
+StudyBuddy – AI Flashcard App | github.com/jamierod/studybuddy  
+• Integrated OpenAI API for auto-generating flashcards from uploaded notes
+• 1,200+ downloads on Google Play; 4.4-star rating
+• Reduced user study time by 35% based on in-app surveys (n=150)
+
+Portfolio Website | jamierod.dev
+• Custom-built with Next.js 14, Three.js animations, Framer Motion
+• 98/100 Lighthouse score; < 1.2s LCP
+
+EXPERIENCE
+
+Frontend Intern | Fidelity Investments | Boston, MA | Jun – Aug 2023
+• Built 4 reusable React component library items used across 3 products
+• Reduced page load time by 28% by implementing code splitting and lazy loading
+• Participated in daily standups and sprint planning with 7-person agile team
+
+Teaching Assistant – Web Engineering | Boston University | Jan – May 2024
+• Guided 60 students through React, Node.js, and REST API assignments
+• Held 4 office hours per week; average student satisfaction 4.8/5
+
+SKILLS
+Languages: JavaScript (ES2024), TypeScript, Python, HTML5, CSS3
+Frameworks: React, Next.js, Vue 3, Svelte, Node.js, Express
+Styling: Tailwind CSS, styled-components, Framer Motion
+Tools: Git, Docker, Figma, Webpack, Vite, Jest, Playwright
+Cloud: Vercel, Netlify, Firebase, basic AWS
