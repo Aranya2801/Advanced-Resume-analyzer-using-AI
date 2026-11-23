@@ -1,41 +1,21 @@
-# Contributing to Advanced Resume Analyzer
+# Contributing
 
-Thank you for your interest in contributing! 🎉
-
-## Development Setup
+Issues and PRs are welcome. A few notes so things stay easy to review:
 
 ```bash
-git clone https://github.com/Aranya2801/Advanced-Resume-analyzer-using-AI.git
-cd Advanced-Resume-analyzer-using-AI
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-pip install black isort flake8 pytest pytest-cov
-python -m spacy download en_core_web_sm
-cp .env.example .env  # add your API key
+python -m venv .venv
+# Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
+pip install -r requirements-dev.txt
+python -m spacy download en_core_web_md
+pytest -q
+ruff check .
 ```
 
-## Code Style
-
-- **Black** for formatting: `black src/ tests/`
-- **isort** for imports: `isort src/ tests/`
-- **flake8** for linting: `flake8 src/ tests/ --max-line-length=120`
-- Type hints everywhere possible
-- Docstrings on all public functions/classes
-
-## Tests
-
-- Add tests for every new feature in `tests/test_analyzer.py`
-- Run: `pytest tests/ -v --cov=src`
-- Target: maintain >80% coverage
-
-## Pull Request Process
-
-1. Branch off `develop` (not `main`)
-2. One feature per PR
-3. Update README if adding new features
-4. All CI checks must pass before merge
-
-## Issues
-
-- Bug reports: include Python version, OS, error traceback
-- Feature requests: explain use case and expected behaviour
+- **Adding skills**: edit `resume_analyzer/data/skills.json`. Put aliases after the canonical name; prefix an alias
+  with `=` if it should be matched case-sensitively (short names like `Go`). If two skills in a family are *not*
+  substitutes for each other, add the family to `_no_partial`. Please add a test in `tests/test_analyzer.py` if the
+  alias could plausibly clash with an ordinary English word.
+- **Changing scoring weights**: run `python -m benchmark.evaluate` before and after and paste both tables in the PR.
+  Don't tune on the test split.
+- **New matching methods**: add them to `Bench.methods()` in `benchmark/evaluate.py` so they get compared against
+  the baselines.

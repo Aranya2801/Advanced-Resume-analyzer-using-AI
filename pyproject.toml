@@ -1,0 +1,45 @@
+[project]
+name = "resume-analyzer"
+version = "0.3.0"
+description = "Explainable resume scoring and resume-to-job matching, with a reproducible benchmark"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Aranya Ghosh" }]
+dependencies = [
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "pdfplumber>=0.11",
+    "python-docx>=1.1",
+    "loguru>=0.7",
+]
+
+[project.optional-dependencies]
+spacy = ["spacy>=3.7"]
+sbert = ["sentence-transformers>=3.0"]
+llm = ["anthropic>=0.40", "openai>=1.40"]
+
+[project.scripts]
+resume-analyzer = "resume_analyzer.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["resume_analyzer*"]
+
+[tool.setuptools.package-data]
+resume_analyzer = ["data/*.json"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B008", "B905"]  # long template strings; FastAPI File(...) defaults; zip(strict=) is noise here
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

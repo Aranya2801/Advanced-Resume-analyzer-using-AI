@@ -1,0 +1,869 @@
+{
+  "_comment": "group -> family -> list of [canonical, alias, alias, ...]. An alias starting with '=' is matched case-sensitively (for short or ambiguous names like Go, R, Ray). Skills in the same family get partial credit for each other during matching. Families listed in _no_partial are groupings for display only; their members are not treated as substitutes.",
+  "_no_partial": [
+    "general_purpose",
+    "web_languages",
+    "data_languages",
+    "ml_areas",
+    "ml_methods",
+    "data_concepts",
+    "systems",
+    "web_quality",
+    "vcs",
+    "design",
+    "process",
+    "leadership",
+    "communication",
+    "thinking"
+  ],
+  "Programming Languages": {
+    "general_purpose": [
+      [
+        "Python",
+        "python3"
+      ],
+      [
+        "Java"
+      ],
+      [
+        "C++",
+        "cpp"
+      ],
+      [
+        "C#",
+        "csharp"
+      ],
+      [
+        "Go",
+        "=Go",
+        "golang"
+      ],
+      [
+        "Rust"
+      ],
+      [
+        "Kotlin"
+      ],
+      [
+        "Scala"
+      ],
+      [
+        "Ruby"
+      ],
+      [
+        "PHP"
+      ],
+      [
+        "Swift"
+      ],
+      [
+        "C",
+        "=C"
+      ],
+      [
+        "Julia"
+      ],
+      [
+        "Dart"
+      ],
+      [
+        "Elixir"
+      ],
+      [
+        "Haskell"
+      ]
+    ],
+    "web_languages": [
+      [
+        "JavaScript",
+        "js",
+        "ecmascript",
+        "es6"
+      ],
+      [
+        "TypeScript",
+        "ts"
+      ],
+      [
+        "HTML",
+        "html5"
+      ],
+      [
+        "CSS",
+        "css3"
+      ]
+    ],
+    "data_languages": [
+      [
+        "SQL",
+        "t-sql",
+        "pl/sql"
+      ],
+      [
+        "R",
+        "=R"
+      ],
+      [
+        "MATLAB"
+      ],
+      [
+        "Bash",
+        "shell scripting"
+      ]
+    ]
+  },
+  "Web & Backend": {
+    "frontend_frameworks": [
+      [
+        "React",
+        "react.js",
+        "reactjs"
+      ],
+      [
+        "Vue",
+        "vue.js",
+        "vuejs",
+        "vue 3"
+      ],
+      [
+        "Angular",
+        "angularjs"
+      ],
+      [
+        "Svelte"
+      ],
+      [
+        "Next.js",
+        "nextjs"
+      ],
+      [
+        "Nuxt",
+        "nuxt.js"
+      ]
+    ],
+    "styling": [
+      [
+        "Tailwind CSS",
+        "tailwind"
+      ],
+      [
+        "Bootstrap"
+      ],
+      [
+        "styled-components"
+      ],
+      [
+        "Sass",
+        "scss"
+      ]
+    ],
+    "frontend_tooling": [
+      [
+        "Webpack"
+      ],
+      [
+        "Vite"
+      ],
+      [
+        "Redux"
+      ],
+      [
+        "Framer Motion"
+      ],
+      [
+        "GSAP"
+      ],
+      [
+        "Three.js"
+      ]
+    ],
+    "backend_frameworks": [
+      [
+        "Node.js",
+        "nodejs"
+      ],
+      [
+        "Express",
+        "=Express",
+        "express.js",
+        "expressjs"
+      ],
+      [
+        "Django"
+      ],
+      [
+        "Flask"
+      ],
+      [
+        "FastAPI"
+      ],
+      [
+        "Spring Boot"
+      ],
+      [
+        "Ruby on Rails",
+        "rails"
+      ],
+      [
+        "Laravel"
+      ],
+      [
+        ".NET",
+        "asp.net",
+        "dotnet"
+      ]
+    ],
+    "api_design": [
+      [
+        "REST",
+        "rest api",
+        "restful",
+        "rest apis"
+      ],
+      [
+        "GraphQL"
+      ],
+      [
+        "gRPC"
+      ],
+      [
+        "Microservices",
+        "microservice",
+        "service-oriented architecture"
+      ]
+    ]
+  },
+  "Machine Learning": {
+    "dl_frameworks": [
+      [
+        "PyTorch",
+        "torch"
+      ],
+      [
+        "TensorFlow",
+        "tf2"
+      ],
+      [
+        "Keras"
+      ],
+      [
+        "JAX"
+      ]
+    ],
+    "classical_ml": [
+      [
+        "scikit-learn",
+        "sklearn",
+        "scikit learn"
+      ],
+      [
+        "XGBoost"
+      ],
+      [
+        "LightGBM"
+      ],
+      [
+        "CatBoost"
+      ]
+    ],
+    "ml_areas": [
+      [
+        "Machine Learning",
+        "ml",
+        "machine-learning"
+      ],
+      [
+        "Deep Learning",
+        "deep-learning",
+        "dl"
+      ],
+      [
+        "NLP",
+        "natural language processing"
+      ],
+      [
+        "Computer Vision",
+        "image recognition"
+      ],
+      [
+        "Reinforcement Learning",
+        "rl"
+      ],
+      [
+        "Recommender Systems",
+        "recommendation systems",
+        "recommendation system",
+        "recsys"
+      ],
+      [
+        "Time Series",
+        "forecasting",
+        "time-series"
+      ]
+    ],
+    "llm": [
+      [
+        "LLM",
+        "llms",
+        "large language models",
+        "large language model"
+      ],
+      [
+        "Transformers",
+        "transformer",
+        "transformer models"
+      ],
+      [
+        "BERT",
+        "distilbert",
+        "roberta"
+      ],
+      [
+        "Hugging Face",
+        "huggingface",
+        "hf transformers"
+      ],
+      [
+        "LangChain"
+      ],
+      [
+        "LlamaIndex"
+      ],
+      [
+        "RAG",
+        "retrieval-augmented generation",
+        "retrieval augmented generation"
+      ],
+      [
+        "Fine-tuning",
+        "fine tuning",
+        "finetuning",
+        "lora",
+        "peft"
+      ],
+      [
+        "RLHF"
+      ],
+      [
+        "Prompt Engineering"
+      ]
+    ],
+    "nlp_libs": [
+      [
+        "spaCy"
+      ],
+      [
+        "NLTK"
+      ],
+      [
+        "Gensim"
+      ]
+    ],
+    "cv_libs": [
+      [
+        "OpenCV"
+      ],
+      [
+        "YOLO",
+        "yolov5",
+        "yolov8"
+      ]
+    ],
+    "mlops": [
+      [
+        "MLflow"
+      ],
+      [
+        "Kubeflow"
+      ],
+      [
+        "Weights & Biases",
+        "wandb",
+        "w&b"
+      ],
+      [
+        "SageMaker",
+        "aws sagemaker"
+      ],
+      [
+        "Vertex AI"
+      ],
+      [
+        "MLOps",
+        "ml ops"
+      ]
+    ],
+    "model_serving": [
+      [
+        "ONNX"
+      ],
+      [
+        "TensorRT"
+      ],
+      [
+        "vLLM"
+      ],
+      [
+        "Triton Inference Server",
+        "triton"
+      ],
+      [
+        "Model Serving",
+        "model deployment",
+        "inference optimization",
+        "inference optimisation"
+      ]
+    ],
+    "ml_methods": [
+      [
+        "A/B Testing",
+        "ab testing",
+        "a/b tests",
+        "experimentation"
+      ],
+      [
+        "Statistics",
+        "statistical modeling",
+        "statistical modelling"
+      ],
+      [
+        "Feature Engineering"
+      ],
+      [
+        "SHAP",
+        "explainable ai",
+        "xai"
+      ]
+    ]
+  },
+  "Data Engineering": {
+    "dataframes": [
+      [
+        "Pandas"
+      ],
+      [
+        "NumPy"
+      ],
+      [
+        "Polars"
+      ]
+    ],
+    "big_data": [
+      [
+        "Spark",
+        "apache spark",
+        "pyspark"
+      ],
+      [
+        "Hadoop"
+      ],
+      [
+        "Flink",
+        "apache flink"
+      ],
+      [
+        "Databricks"
+      ]
+    ],
+    "streaming": [
+      [
+        "Kafka",
+        "apache kafka"
+      ],
+      [
+        "RabbitMQ"
+      ],
+      [
+        "Kinesis"
+      ]
+    ],
+    "orchestration": [
+      [
+        "Airflow",
+        "apache airflow"
+      ],
+      [
+        "dbt"
+      ],
+      [
+        "Prefect"
+      ],
+      [
+        "Dagster"
+      ]
+    ],
+    "warehouses": [
+      [
+        "Snowflake"
+      ],
+      [
+        "BigQuery"
+      ],
+      [
+        "Redshift"
+      ],
+      [
+        "DuckDB"
+      ]
+    ],
+    "data_concepts": [
+      [
+        "ETL",
+        "elt",
+        "data pipelines",
+        "data pipeline"
+      ],
+      [
+        "Data Warehousing",
+        "data warehouse",
+        "data lake",
+        "lakehouse"
+      ]
+    ],
+    "bi": [
+      [
+        "Tableau"
+      ],
+      [
+        "Power BI",
+        "powerbi"
+      ],
+      [
+        "Looker"
+      ],
+      [
+        "Plotly"
+      ],
+      [
+        "Matplotlib"
+      ]
+    ]
+  },
+  "Cloud & DevOps": {
+    "cloud": [
+      [
+        "AWS",
+        "amazon web services"
+      ],
+      [
+        "GCP",
+        "google cloud",
+        "google cloud platform"
+      ],
+      [
+        "Azure",
+        "microsoft azure"
+      ]
+    ],
+    "containers": [
+      [
+        "Docker",
+        "containers",
+        "containerization"
+      ],
+      [
+        "Kubernetes",
+        "k8s"
+      ],
+      [
+        "Helm"
+      ],
+      [
+        "Istio"
+      ],
+      [
+        "Envoy"
+      ]
+    ],
+    "iac": [
+      [
+        "Terraform"
+      ],
+      [
+        "Ansible"
+      ],
+      [
+        "CloudFormation"
+      ],
+      [
+        "Pulumi"
+      ]
+    ],
+    "ci_cd": [
+      [
+        "CI/CD",
+        "ci-cd",
+        "continuous integration",
+        "continuous delivery"
+      ],
+      [
+        "GitHub Actions"
+      ],
+      [
+        "Jenkins"
+      ],
+      [
+        "GitLab CI"
+      ],
+      [
+        "CircleCI"
+      ],
+      [
+        "ArgoCD",
+        "argo cd"
+      ]
+    ],
+    "observability": [
+      [
+        "Prometheus"
+      ],
+      [
+        "Grafana"
+      ],
+      [
+        "Datadog"
+      ],
+      [
+        "OpenTelemetry"
+      ],
+      [
+        "ELK",
+        "elasticsearch logstash kibana"
+      ]
+    ],
+    "systems": [
+      [
+        "Distributed Systems",
+        "distributed computing"
+      ],
+      [
+        "Linux",
+        "unix"
+      ],
+      [
+        "Serverless",
+        "aws lambda",
+        "lambda functions"
+      ]
+    ]
+  },
+  "Databases": {
+    "relational": [
+      [
+        "PostgreSQL",
+        "postgres"
+      ],
+      [
+        "MySQL"
+      ],
+      [
+        "SQLite"
+      ],
+      [
+        "Oracle"
+      ],
+      [
+        "SQL Server",
+        "mssql"
+      ]
+    ],
+    "nosql": [
+      [
+        "MongoDB",
+        "mongo"
+      ],
+      [
+        "Cassandra"
+      ],
+      [
+        "DynamoDB"
+      ],
+      [
+        "Neo4j"
+      ],
+      [
+        "Firebase",
+        "firestore"
+      ]
+    ],
+    "cache_search": [
+      [
+        "Redis"
+      ],
+      [
+        "Elasticsearch",
+        "opensearch"
+      ],
+      [
+        "Memcached"
+      ]
+    ],
+    "vector_db": [
+      [
+        "Pinecone"
+      ],
+      [
+        "Weaviate"
+      ],
+      [
+        "Qdrant"
+      ],
+      [
+        "ChromaDB",
+        "chroma"
+      ],
+      [
+        "FAISS"
+      ],
+      [
+        "pgvector"
+      ]
+    ]
+  },
+  "Testing & Quality": {
+    "testing": [
+      [
+        "Jest"
+      ],
+      [
+        "React Testing Library",
+        "testing library"
+      ],
+      [
+        "Playwright"
+      ],
+      [
+        "Cypress"
+      ],
+      [
+        "Selenium"
+      ],
+      [
+        "pytest"
+      ],
+      [
+        "Unit Testing",
+        "unit tests",
+        "integration tests",
+        "integration testing",
+        "tdd"
+      ]
+    ],
+    "web_quality": [
+      [
+        "Accessibility",
+        "wcag",
+        "a11y"
+      ],
+      [
+        "Web Performance",
+        "core web vitals",
+        "lighthouse",
+        "performance optimization",
+        "performance optimisation"
+      ],
+      [
+        "Responsive Design"
+      ]
+    ]
+  },
+  "Tools & Practices": {
+    "vcs": [
+      [
+        "Git"
+      ],
+      [
+        "GitHub"
+      ],
+      [
+        "GitLab"
+      ]
+    ],
+    "design": [
+      [
+        "Figma"
+      ],
+      [
+        "UI/UX",
+        "ux design",
+        "ui design",
+        "user experience"
+      ]
+    ],
+    "process": [
+      [
+        "Agile",
+        "scrum",
+        "kanban"
+      ],
+      [
+        "Code Review",
+        "code reviews"
+      ],
+      [
+        "System Design",
+        "technical design",
+        "design reviews"
+      ]
+    ],
+    "office": [
+      [
+        "Excel",
+        "microsoft excel",
+        "spreadsheets",
+        "vlookup"
+      ],
+      [
+        "Google Sheets"
+      ]
+    ]
+  },
+  "Soft Skills": {
+    "leadership": [
+      [
+        "Leadership",
+        "led a team",
+        "team lead"
+      ],
+      [
+        "Mentoring",
+        "mentored",
+        "mentorship",
+        "mentor"
+      ],
+      [
+        "Project Management",
+        "program management"
+      ],
+      [
+        "Stakeholder Management",
+        "cross-functional",
+        "cross functional"
+      ]
+    ],
+    "communication": [
+      [
+        "Communication",
+        "communication skills",
+        "presentation skills"
+      ],
+      [
+        "Technical Writing",
+        "documentation",
+        "rfc",
+        "rfcs"
+      ]
+    ],
+    "thinking": [
+      [
+        "Problem Solving",
+        "problem-solving"
+      ],
+      [
+        "Research",
+        "publications",
+        "published"
+      ]
+    ]
+  }
+}
